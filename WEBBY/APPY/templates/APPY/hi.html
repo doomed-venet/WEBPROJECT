@@ -5,6 +5,14 @@
     <title>Tempero</title>
 </head>
 <body>
-<h1>Hello</h1>
+<h1>Temperature Monitoring</h1>
 </body>
+<table>
+    <caption> Sensors:</caption>
+    <tr *ngFor="let result of results">
+        <td>{{"Sensor1 "}}</td>
+        <td>{{"Sensor2 "}}</td>
+        <td>{{"Sensor3 "}}</td>
+    </tr>
+</table>
 </html>
